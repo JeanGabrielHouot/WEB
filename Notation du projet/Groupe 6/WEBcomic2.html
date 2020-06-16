@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Le diner</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+      body {
+        background-color: #00de17;
+        font-family: "Comic Sans MS", sans-serif;
+        line-height: 1.2;
+        text-align: center;
+        padding: 40px 0 0 20px;
+      }
+      h1 {
+        text-transform: uppercase;
+        font-size: 40px;
+        color: #efff00;
+      }
+      .comic {
+        max-width: 826px;
+        margin: 60px auto 0;
+      }
+      .scene {
+        width: 300px;
+        height: 250px;
+        border: 3px solid black;
+        background: white;
+        margin: 8px;
+        display: inline-block;
+        position: relative;
+      }
+      .scene img {
+        width: 100%;
+        height: 100%;
+        display: block;
+      }
+      .caption {
+        padding: 10px;
+        margin: 0;
+        position: absolute;
+        left: 0;
+        right: 0;
+        background: #efff00;
+        text-align: left;
+        top: 0;
+      }
+      .caption.bottom {
+        bottom: 0;
+        top:auto;
+        border-top: 2px solid black;
+      }
+      .caption.top {
+        top: 0;
+        border-bottom: 2px solid black;
+      }
+      .speech {
+        width: 40%;
+        border-radius:50%;
+        border: 2px solid black;
+        margin: 0;
+        position: absolute;
+        z-index: 1;
+        background: snow ;
+        padding: 20px;
+        top: -15px;
+        text-align: center;
+      }
+      /* Advanced CSS for the speech pointer */
+      .speech:after {
+        border-color: snow transparent;
+        border-style: solid;
+        border-width: 13px 13px 0;
+        bottom: -11px;
+        content: "";
+        display: block;
+        left: 50%;
+        margin-left:-14px;
+        position: absolute;
+        width: 0;
+      }
+      .speech:before {
+        border-color: black transparent;
+        border-style: solid;
+        border-width: 16px 16px 0;
+        bottom: -15px;
+        content: "";
+        display: block;
+        left: 50%;
+        margin-left:-17px;
+        position: absolute;
+        width: 0;
+      }
+      .speech.left {
+        left:-15px;
+      }
+      .speech.right {
+        right:-15px;
+      }
+      footer {
+        clear: both;
+      }
+    </style>
+
+  </head>
+  <body>
+
+<!-- Etape 1: Changer le nom de son web comic -->
+    <h1>Le diner</h1>
+
+<!-- C'est ici que commence le WEB comic -->
+    <div class="comic">
+
+<!-- Chaque scéne est identifier par la classe scene -->
+
+      <div class="scene">
+        <p class="caption bottom">Chaima a terminer les cours</p>
+        <p class="speech left">J'ai faaiimm</p>
+        <img src="https://static.vecteezy.com/system/resources/previews/000/519/888/non_2x/vector-diabetic-girl-feel-hungry.jpg" alt="" />
+      </div>
+
+
+      <div class="scene">
+        <p class="caption top">...La maman de chaima prepare à manger</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQjcO3pF6A8lTo8Vfa-P6jDmAGHojPDgGq6TlvBP1hQEES96ezt" alt="" />
+      </div>
+
+
+      <div class="scene">
+        <p class="speech left">J'ai preparer le diner ma chérie</p>
+        <img src="https://i.pinimg.com/236x/7e/f1/54/7ef154c7372eaa145a1108fbdccaf31a.jpg" alt="" />
+      </div>
+
+
+      <div class="scene">
+        <p class="speech right">SUPER. J'arrive maman</p>
+        <img src="https://www.bepub.com/sources/medium/claire-gosnon-illustrateur-portraits-humour-63374.jpg" alt="" />
+      </div>
+
+
+      <div class="scene">
+        <img src="http://cdn5.coloritou.com/dessins/peindre/201802/daener-en-famille-famille-colorie-par-danielle-99624.jpg" alt="" />
+      </div>
+
+
+      <div class="scene">
+        <p class="caption bottom">Chaima et sa famille mangent ensemble</p>
+        <img src="https://previews.123rf.com/images/tomaccojc/tomaccojc1702/tomaccojc170200091/72078523-dessin-anim%C3%A9-d%C3%AEner-famille.jpg" alt="" />
+      </div>
+
+      <!--
+C'est la fin du WEB comic
+
+
+
+    </div>
+
+    <!-- Disclaimer for images -->
+    <footer>
+         next web comic <a href="file:///G:/WEBcomic3.html">file:///G:/WEBcomic3.html</a>
+    </footer>
+
+  </body>
+</html>

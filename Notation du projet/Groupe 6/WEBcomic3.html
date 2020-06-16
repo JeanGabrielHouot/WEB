@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chaima au dodo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+      body {
+        background-color: #3a2828;
+        font-family: "Comic Sans MS", sans-serif;
+        line-height: 1.2;
+        text-align: center;
+        padding: 40px 0 0 20px;
+      }
+      h1 {
+        text-transform: uppercase;
+        font-size: 40px;
+        color: #d02626;
+      }
+      .comic {
+        max-width: 826px;
+        margin: 60px auto 0;
+      }
+      .scene {
+        width: 250px;
+        height: 250px;
+        border: 3px solid black;
+        background: white;
+        margin: 8px;
+        display: inline-block;
+        position: relative;
+      }
+      .scene img {
+        width: 100%;
+        height: 100%;
+        display: block;
+      }
+      .caption {
+        padding: 10px;
+        margin: 0;
+        position: absolute;
+        left: 0;
+        right: 0;
+        background: #d02626;
+        text-align: left;
+        top: 0;
+      }
+      .caption.bottom {
+        bottom: 0;
+        top:auto;
+        border-top: 2px solid black;
+      }
+      .caption.top {
+        top: 0;
+        border-bottom: 2px solid black;
+      }
+      .speech {
+        width: 40%;
+        border-radius:50%;
+        border: 2px solid black;
+        margin: 0;
+        position: absolute;
+        z-index: 1;
+        background: snow ;
+        padding: 20px;
+        top: -15px;
+        text-align: center;
+      }
+      /* Advanced CSS for the speech pointer */
+      .speech:after {
+        border-color: snow transparent;
+        border-style: solid;
+        border-width: 13px 13px 0;
+        bottom: -11px;
+        content: "";
+        display: block;
+        left: 50%;
+        margin-left:-14px;
+        position: absolute;
+        width: 0;
+      }
+      .speech:before {
+        border-color: black transparent;
+        border-style: solid;
+        border-width: 16px 16px 0;
+        bottom: -15px;
+        content: "";
+        display: block;
+        left: 50%;
+        margin-left:-17px;
+        position: absolute;
+        width: 0;
+      }
+      .speech.left {
+        left:-15px;
+      }
+      .speech.right {
+        right:-15px;
+      }
+      footer {
+        clear: both;
+
+      }
+    </style>
+
+  </head>
+  <body>
+
+<!-- Etape 1: Changer le nom de son web comic -->
+    <h1>Chaima au dodo</h1>
+
+<!-- C'est ici que commence le WEB comic -->
+    <div class="comic">
+
+<!-- Chaque scéne est identifier par la classe scene -->
+
+      <div class="scene">
+        <p class="caption bottom">Chaima a terminer son diner et va se coucher</p>
+        <p class="speech left">Jai bien manger! Maintenant au dodo</p>
+        <img src="https://st2.depositphotos.com/6723736/12371/v/950/depositphotos_123719958-stock-illustration-business-woman-to-climb-the.jpg" alt="" />
+      </div>
+
+
+      <div class="scene">
+        <p class="caption top">Elle va d'abord brossers ses dents</p>
+        <img src="https://previews.123rf.com/images/prettyvectors/prettyvectors1701/prettyvectors170100010/70076798-personnage-de-fille-se-brosser-les-dents-illustration-de-dessin-anim%C3%A9-plane-vectorielle.jpg" alt="" />
+      </div>
+
+
+      <div class="scene">
+      <p class="caption bottom">Elle chante dans sa salle de bain</p>
+        <img src="https://st.depositphotos.com/2693725/3099/v/950/depositphotos_30991941-stock-illustration-girl-singing.jpg" alt="" />
+      </div>
+
+
+
+      <div class="scene">
+      <p class="speech left">Bon Bonne nuit TOUT LE MONDE!!</p>
+        <img src="https://thumbs.dreamstime.com/z/young-woman-yawning-illustration-cartoon-vector-73050162.jpg" alt="" />
+      </div>
+
+
+      <div class="scene">
+        <p class="speech right">Chaima s'endort <3</p>
+        <img src="http://cdn5.coloritou.com/dessins/peindre/201749/fille-qui-dort-famille-98943.jpg" alt="" />
+      </div>
+
+      <!--
+C'est la fin du WEB comic
+
+
+
+    </div>
+
+    <!-- Disclaimer for images -->
+    <footer>
+     <h1>END</h1>
+    </footer>
+
+  </body>
+</html>

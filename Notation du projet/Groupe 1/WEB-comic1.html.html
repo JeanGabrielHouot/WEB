@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>La Famille Simpsons: A Starter Make</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+      body {
+        background-color: yellow;  #efefef;
+        font-family: "Comic Sans MS", sans-serif;
+        line-height: 1.2;
+        text-align: center;
+        padding: 40px 0 0 20px;
+      }
+      h1 {
+        text-transform: uppercase;
+        font-size: 40px;
+        color: #d02626;
+      }
+      .comic {
+        max-width: 826px;
+        margin: 60px auto 0;
+      }
+      .scene {
+        width: 250px;
+        height: 250px;
+        border: 3px solid black;
+        background: white;
+        margin: 8px;
+        display: inline-block;
+        position: relative;
+      }
+      .scene img {
+        width: 100%;
+        height: 100%;
+        display: block;
+      }
+      .caption {
+        padding: 10px;
+        margin: 0;
+        position: absolute;
+        left: 0;
+        right: 0;
+        background: #e2e971;
+        text-align: left;
+        top: 0;
+      }
+      .caption.bottom {
+        bottom: 0;
+        top:auto;
+        border-top: 2px solid black;
+      }
+      .caption.top {
+        top: 0;
+        border-bottom: 2px solid black;
+      }
+      .speech {
+        width: 40%;
+        border-radius:50%;
+        border: 2px solid black;
+        margin: 0;
+        position: absolute;
+        z-index: 1;
+        background: pink;
+        padding: 20px;
+        top: -15px;
+        text-align: center;
+      }
+      /* Advanced CSS for the speech pointer */
+      .speech:after {
+        border-color: snow transparent;
+        border-style: solid;
+        border-width: 13px 13px 0;
+        bottom: -11px;
+        content: "";
+        display: block;
+        left: 50%;
+        margin-left:-14px;
+        position: absolute;
+        width: 0;
+      }
+      .speech:before {
+        border-color: black transparent;
+        border-style: solid;
+        border-width: 16px 16px 0;
+        bottom: -15px;
+        content: "";
+        display: block;
+        left: 50%;
+        margin-left:-17px;
+        position: absolute;
+        width: 0;
+      }
+      .speech.left {
+        left:-15px;
+      }
+      .speech.right {
+        right:-15px;
+      }
+      footer {
+        clear: both;
+      }
+    </style>
+
+  </head>
+  <body>
+
+<!-- Etape 1: Changer le nom de son web comic -->
+    <h1>Naj-Omar-Salim WEB Comic!</h1>
+
+
+<!-- C'est ici que commence le WEB comic -->
+    <div class="comic">
+
+<!-- Chaque scéne est identifier par la classe scene -->
+
+      <div class="scene">
+        <p class="caption bottom">Dans la ville de Springfield</p>
+        <p class="speech left">Quelle ville bizarre!</p>
+        <img src="https://www.urbanews.fr/wp-content/uploads/2011/09/springfield-129283.jpeg" alt="" />
+      </div>
+
+
+      <div class="scene">
+        <p class="caption top">a Evergreen Terasse</p>
+        <img src="https://upload.wikimedia.org/wikipedia/en/c/ca/742_Evergreen_Terrace.png" alt="" />
+      </div>
+
+
+      <div class="scene">
+        <p class="speech left">Bienvenu chez les Simpsons!</p>
+        <img src="https://media.giphy.com/media/tkYpAbKdWj4TS/giphy.gif" alt="" />
+      </div>
+
+
+      <div class="scene">
+        <p class="speech right">Amen!</p>
+        <img src="https://www.calvertjournal.com/images/uploads/news/October_2016/Screen_Shot_2017-05-03_at_12.46.59.png" alt="" />
+      </div>
+
+
+      <div class="scene">
+        <img src="https://media.giphy.com/media/VvHjhoD5WDyVy/giphy.gif" alt="" />
+      </div>
+
+
+      <div class="scene">
+        <p class="caption bottom">C'est une famille bordelique!</p>
+        <img src="https://www.emugifs.net/wp-content/uploads/2019/07/GIF-Animata-di-Homer-Strangola-Bart-e-lo-Prende-al-Collo-GIF-Divertente-dei-Simpson.gif" alt="" />
+      </div>
+
+      <!--
+C'est la fin de la premiere page du WEB comic
+
+
+
+    </div>
+
+    <!-- Disclaimer for images -->
+    <footer>
+    </footer>
+
+  </body>
+</html>

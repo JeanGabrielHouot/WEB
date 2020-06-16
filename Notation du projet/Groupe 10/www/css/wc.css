@@ -1,0 +1,54 @@
+/* ------------------------------------------------- */
+
+.img_box img, .img_box { width: 100%; display: block; }
+
+.img_box p {
+	border: 2px solid #000000; color: #000000; background-color: #F4F4F4;
+	padding: 5px; position: absolute; text-align: justify;
+}
+
+.mono_box { padding: 5px; position: relative; }
+#content div { padding: 0px; }
+
+/* Conteneur pour afficher en ligne */
+.line { display: flex; width: 100%; padding: 0px; margin: 5px 0px; }
+
+/* Espace dans le conteneur a mettre entre les images */
+.space { padding: 0px 2.5px; }
+
+
+/* ------------------------------------------------- */
+
+/* Les boite de dialogue de la page 1 */
+
+#t_img-p1-1-1 { font-size: 14px; width: 280px; margin: 2.2% 0px 0px 2.2%; }
+#t_img-p1-1-2 { font-size: 14px; width: 280px; margin: 3.8% 0px 0px 34.8%; }
+
+#t_img-p1-2-1 { font-size: 11px; width: 110px; margin: 2.2% 0px 0px 1.1%; }
+#t_img-p1-2-2 { font-size: 11px; width: 130px; margin: 4.45% 0px 0px 20%; }
+
+#t_img-p1-3-1 { font-size: 13px; width: 210px; margin: 1.1% 0px 0px 0.75%; }
+
+#t_img-p1-4-1 { font-size: 14px; width: 205px; margin: 3% 0px 0px 10.4%; }
+
+#t_img-p1-5-1 { font-size: 26px; width: 70px; margin: 1.5% 0px 0px 11.85%; text-align: center; }
+
+
+/* Recadrage des images de la page 1 */
+
+#img_box-p1-2 { width: 118.5%; }
+
+
+/* ------------------------------------------------- */
+
+/* Les boite de dialogue de la page 1 */
+
+#t_img-p2-1-1 { font-size: 14px; width: 150px; margin: 17.05% 0px 0px 1.5%; }
+
+#t_img-p2-3-1 { font-size: 14px; width: 250px; margin: 2.2% 0px 0px 36.35%; }
+#t_img-p2-3-2 { font-size: 14px; width: 270px; margin: 29.5% 0px 0px 2.2%; }
+
+
+/* Recadrage des images de la page 1 */
+
+#img_box-p2-1 { width: 106.8%; }

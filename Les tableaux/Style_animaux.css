@@ -1,0 +1,32 @@
+body {
+  background: #FFE0C0;
+  color: #BC9090;
+}
+
+.couleur_titre {
+  color:red;
+}
+
+h2 {
+  text-align:center;
+  color:grey;
+}
+
+div, .centrage {
+  text-align: center;
+}
+
+table {
+  border: inset 10px;
+  border: solid blue 1px;
+  border-collapse: separate;
+  border-spacing: 12px;
+  table-layout: auto;
+  empty-cells: hide;
+  vertical-align: baseline;
+}
+
+h4 {
+  text-align:center;
+  color:green;
+}

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>La Famille Simpsons: A Starter Make</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+      body {
+        background-color: yellow; #efefef;
+        font-family: "Comic Sans MS", sans-serif;
+        line-height: 1.2;
+        text-align: center;
+        padding: 40px 0 0 20px;
+      }
+      h1 {
+        text-transform: uppercase;
+        font-size: 40px;
+        color: #d02626;
+      }
+      .comic {
+        max-width: 826px;
+        margin: 60px auto 0;
+      }
+      .scene {
+        width: 250px;
+        height: 250px;
+        border: 3px solid black;
+        background: white;
+        margin: 8px;
+        display: inline-block;
+        position: relative;
+      }
+      .scene img {
+        width: 100%;
+        height: 100%;
+        display: block;
+      }
+      .caption {
+        padding: 10px;
+        margin: 0;
+        position: absolute;
+        left: 0;
+        right: 0;
+        background: #e2e971;
+        text-align: left;
+        top: 0;
+      }
+      .caption.bottom {
+        bottom: 0;
+        top:auto;
+        border-top: 2px solid black;
+      }
+      .caption.top {
+        top: 0;
+        border-bottom: 2px solid black;
+      }
+      .speech {
+        width: 40%;
+        border-radius:50%;
+        border: 2px solid black;
+        margin: 0;
+        position: absolute;
+        z-index: 1;
+        background: pink ;
+        padding: 20px;
+        top: -15px;
+        text-align: center;
+      }
+      /* Advanced CSS for the speech pointer */
+      .speech:after {
+        border-color: snow transparent;
+        border-style: solid;
+        border-width: 13px 13px 0;
+        bottom: -11px;
+        content: "";
+        display: block;
+        left: 50%;
+        margin-left:-14px;
+        position: absolute;
+        width: 0;
+      }
+      .speech:before {
+        border-color: black transparent;
+        border-style: solid;
+        border-width: 16px 16px 0;
+        bottom: -15px;
+        content: "";
+        display: block;
+        left: 50%;
+        margin-left:-17px;
+        position: absolute;
+        width: 0;
+      }
+      .speech.left {
+        left:-15px;
+      }
+      .speech.right {
+        right:-15px;
+      }
+      footer {
+        clear: both;
+      }
+    </style>
+
+  </head>
+  <body>
+
+<!-- Etape 1: Changer le nom de son web comic -->
+    <h1>Naj-Omar-Salim WEB Comic!</h1>
+
+<!-- C'est ici que commence le WEB comic -->
+    <div class="comic">
+
+<!-- Chaque scéne est identifier par la classe scene -->
+
+      <div class="scene">
+        <p class="caption bottom">Voici le fils aine</p>
+        <p class="speech left">Bart, me voici!</p>
+        <img src="https://tel.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2FTEL.2Enews.2F2018.2F01.2F11.2F2cedfe05-06c4-4694-9bbf-b4bdb54b184f.2Ejpeg/640x360/quality/80/bon-anniversaire-bart-simpson.jpg" alt="" />
+      </div>
+
+
+      <div class="scene">
+        <p class="caption top">C'est une peste a l'ecole</p>
+        <img src="https://media1.tenor.com/images/b864d55c612a6be5f3d6d0bfd42b9c99/tenor.gif?itemid=11144555" alt="" />
+      </div>
+
+
+      <div class="scene">
+        <p class="speech left">Toujours toi Simpson, 200 mots!</p>
+        <img src="https://66.media.tumblr.com/tumblr_lgyv8yo7dI1qfkun9o1_500.gifv" alt="" />
+      </div>
+
+
+      <div class="scene">
+        <p class="speech right">La liberte,j'aime ca!</p>
+        <img src="https://i.gifer.com/RrCr.gif" alt="" />
+      </div>
+
+
+      <div class="scene">
+        <img src="https://i.pinimg.com/originals/dd/1f/32/dd1f323f313cf721f8fd2a2857116059.gif" alt="" />
+      </div>
+
+
+      <div class="scene">
+        <p class="caption bottom">C'est le comic de la famille</p>
+        <img src="https://i.pinimg.com/originals/9f/f9/b5/9ff9b56c4d7f1a782b909b45a15a465d.gif" alt="" />
+      </div>
+
+      <!--
+C'est la quatrieme du WEB comic
+
+
+
+    </div>
+
+    <!-- Disclaimer for images -->
+    <footer>
+    </footer>
+
+  </body>
+</html>

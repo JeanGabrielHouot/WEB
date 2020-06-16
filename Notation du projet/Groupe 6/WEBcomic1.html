@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Une journee au Lycee</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+      body {
+        background-color: #fd7979;
+        font-family: "Comic Sans MS", sans-serif;
+        line-height: 1.2;
+        text-align: center;
+        padding: 40px 0 0 20px;
+      }
+      h1 {
+        text-transform: uppercase;
+        font-size: 30px;
+        color: #d02626;
+      }
+      .comic {
+        max-width: 826px;
+        margin: 60px auto 0;
+      }
+      .scene {
+        width: 250px;
+        height: 280px;
+        border: 3px solid black;
+        background: white;
+        margin: 8px;
+        display: inline-block;
+        position: relative;
+      }
+      .scene img {
+        width: 100%;
+        height: 100%;
+        display: block;
+      }
+      .caption {
+        padding: 10px;
+        margin: 0;
+        position: absolute;
+        left: 0;
+        right: 0;
+        background: #e2e971;
+        text-align: left;
+        top: 0;
+      }
+      .caption.bottom {
+        bottom: 0;
+        top:auto;
+        border-top: 2px solid black;
+      }
+      .caption.top {
+        top: 0;
+        border-bottom: 2px solid black;
+      }
+      .speech {
+        width: 40%;
+        border-radius:50%;
+        border: 2px solid black;
+        margin: 0;
+        position: absolute;
+        z-index: 1;
+        background: snow ;
+        padding: 20px;
+        top: -15px;
+        text-align: center;
+      }
+      /* Advanced CSS for the speech pointer */
+      .speech:after {
+        border-color: snow transparent;
+        border-style: solid;
+        border-width: 13px 13px 0;
+        bottom: -11px;
+        content: "";
+        display: block;
+        left: 50%;
+        margin-left:-14px;
+        position: absolute;
+        width: 0;
+      }
+      .speech:before {
+        border-color: black transparent;
+        border-style: solid;
+        border-width: 16px 16px 0;
+        bottom: -15px;
+        content: "";
+        display: block;
+        left: 50%;
+        margin-left:-17px;
+        position: absolute;
+        width: 0;
+      }
+      .speech.left {
+        left:-15px;
+      }
+      .speech.right {
+        right:-15px;
+      }
+      footer {
+        clear: both;
+      }
+    </style>
+
+  </head>
+  <body>
+
+<!-- Etape 1: Changer le nom de son web comic -->
+    <h1> Une journée au lycée </h1>
+
+<!-- C'est ici que commence le WEB comic -->
+    <div class="comic">
+
+<!-- Chaque scéne est identifier par la classe scene -->
+
+      <div class="scene">
+        <p class="caption bottom">Chaima arrive au lycee...</p>
+        <p class="speech left">J'ai peur de rater mon controle la</p>
+        <img src="https://i.skyrock.net/5823/70995823/pics/3039061297_1_3_zqLwVZ3g.jpg" alt="" />
+      </div>
+
+
+      <div class="scene">
+        <p class="caption top">...pendant le controle de Math.</p>
+        <img src="https://www.lycee-buffon.fr/images/dessins/largeur-xl/amphi_xl.jpg" alt="" />
+      </div>
+
+
+      <div class="scene">
+        <p class="speech left">C'EST LA RECREEE!!</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSy4jC2bt9z8HBc6lEwfBcrMnXvTwYKiLVY4ZCLY_besJPS4VAC" alt="" />
+      </div>
+
+
+      <div class="scene">
+        <p class="speech right">Jouons au baskeeettt!</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSR6wYppYEh-xMlGowxt5c-e0Y-jU07MFbRr0owmMtUcxwg2MH-" alt="" />
+      </div>
+
+      <div class="scene">
+        <p class="caption bottom">Chaima continue sa journee</p>
+        <img src="https://www.lycee-buffon.fr/images/dessins/largeur-xl/amphi_xl.jpg" alt="" />
+      </div>
+
+
+      <div class="scene">
+        <img src="https://i.skyrock.net/8297/22218297/pics/639575877_small.jpg" alt="" />
+      </div>
+
+
+      <div class="scene">
+        <p class="caption bottom">La journee est terminer pour Chaima.</p>
+        <img src="http://bdzoom.com/wp-content/uploads/2011/12/32_4dc2ac444c755_1920_002-003-chapitre-01-02-03-555x392.jpg" alt="" />
+      </div>
+
+      <!--
+C'est la fin du WEB comic
+
+
+
+    </div>
+
+    <!-- Disclaimer for images -->
+    <footer>
+   next web comic <a href="file:///G:/WEBcomic2.html">file:///G:/WEBcomic2.html</a>
+    </footer>
+
+  </body>
+</html>

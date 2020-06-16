@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemples de formulaires</title>
+
+    <style>
+        h1 {
+            color: green;
+        }
+        p {
+            padding: 8px;
+        }
+
+        div {
+            margin: 4px;
+            padding: 8px;
+            color: white;
+            width: 500px;
+        }
+
+        .remplir {
+            background-color: purple;
+        }
+
+        .Couleur {
+            background-color: yellow;
+            color: black;
+        }
+
+        .cocher {
+            background-color: blue;
+        }
+
+        .bouton {
+            background-color: green;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>
+        Exemple de formulaire
+    </h1>
+    <p>
+
+        On présente ici différentes interractions avec les formulaires sur une page HTML.
+
+    </p>
+    <form>
+        <div class="remplir">
+            Les zone de textes à remplir:
+            <p> Identifiant: <input type="text" name="login" /> </p>
+            <p> Mot de passe: <input type="passwd" name="pass" /> </p>
+
+            <p> Nom: <input type="text" name="nom" /> </p>
+            <p> Prénom: <input type="text" name="prenom" /> </p>
+        </div>
+
+
+        
+        <div class="cocher">
+            Les cases à cocher
+            <p>
+                Ma section:
+                Second <input type="radio" name="section" value="homme"></br>
+                Première <input type="radio" name="section" value="femme"></br>
+                Terminale <input type="radio" name="section" value="femme"></br>
+            </p>
+            
+            <p>
+                Mes matières préférées: <br />
+                
+                Français <input type="checkbox" name="Francais" value="Francais" />
+                Historie <input type="checkbox" name="Historie" value="Histoire" />
+                Maths <input type="checkbox" name="Maths" value="Maths" />
+                NSI <input type="checkbox" name="NSI" value="NSI" />
+                Physique <input type="checkbox" name="Physique" value="Physique" />
+                Art plastique <input type="checkbox" name="Physique" value="Physique" />
+            </p>
+        </div>
+        
+        <div class="bouton">
+            Les boutons d'envoi de données.
+            <p><input type="button" , value="Buton"></p>
+            <p><input type="submit" , value="Envoyer"></p>
+            
+        </div>
+        
+        <div class="Couleur">
+            Ma couleur préférée:
+            <select name="maCouleur">
+                <option value="bleu">Bleu</option>
+                <option value="jaune">Jaune</option>
+                <option value="rouge">Rouge</option>
+                <option value="vert">Vert</option>
+                <option value="violet">Violet</option>
+            </select>
+        </div>
+    
+    
+    </form>
+</body>
+
+</html>
