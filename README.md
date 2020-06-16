@@ -7,10 +7,15 @@ Il y a différentes activités ludiques pour présenter pas à pas le fonctionne
 Ordre des séquences:
 
 1 - Les bases du HTML
+
 2 - Les base du CSS
+
 3 - Les tableaux
+
 4 - Réseaux et adresse IP
+
 5 - JavaScript
+
 6 - Les formulaires
 
 Il y a aussi un projet WEB-Comic qui a été donné aux élèves. Je donne 3 exemples de réalisation.
